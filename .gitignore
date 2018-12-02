@@ -1,0 +1,8 @@
+bin/*
+pkg
+src/github.com
+src/golang.org
+src/google.golang.org
+
+src/web_js_client/dist/js/bundle.js
+src/web_js_client/node_modules

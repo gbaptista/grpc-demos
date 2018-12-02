@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  envoy_proxy:
+    build:
+      context: .
+    volumes:
+      - ./bin:/grpc-demos/bin
+    ports:
+      - "9901:9901"
+      - "50052:50052"
