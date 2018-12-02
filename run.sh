@@ -7,7 +7,7 @@ fi
 GOPATH=`pwd` go get google.golang.org/grpc
 GOPATH=`pwd` go get github.com/golang/protobuf/proto
 
-if [ "$PROJECT" == "compile_proto" ]
+if [ "$PROJECT" == "compile_protos" ]
 then
 
   GOPATH=`pwd` go get github.com/golang/protobuf/protoc-gen-go
