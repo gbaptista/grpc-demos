@@ -101,7 +101,7 @@ grpc_client.sayHello(request, {}, (error, response) => {
   if(error) {
     console.error(error);
   } else {
-    console.error(response);
+    console.error(response); // 'hello gbaptista!'
   }
 });
 ```
